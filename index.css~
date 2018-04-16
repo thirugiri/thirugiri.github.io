@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|VT323');
+
+body{
+	background:black;
+	font-family: 'VT323', 'Monaco', monospace;
+	font-size:20px;
+	color:white;
+	padding:1em;
+	padding-left:2em;
+}
+
+a{
+	text-decoration:none;
+}
+.green-text{
+	color:green;
+}
+.command{
+	color:#4a319e;
+}
+
+form{
+	opacity:0;
+	animation:visible 0.5s forwards;
+	animation-delay:13s;
+}
+@keyframes visible{
+	to{
+		opacity:1;	
+	}
+}
+
+.terminal_line{
+	width:0%;
+	white-space:nowrap;
+	animation: type 2s steps(60, end) forwards;
+	overflow:hidden;
+	animation-delay:1s;
+}
+.terminal_line:nth-child(2){
+	white-space:nowrap;
+	animation-delay:2s;
+}
+.terminal_line:nth-child(3){
+	white-space:nowrap;
+	animation-delay:3s;
+}
+.terminal_line:nth-child(4){
+	white-space:nowrap;
+	animation-delay:4s;
+}
+.terminal_line:nth-child(5){
+	white-space:nowrap;
+	animation-delay:5s;
+}
+.terminal_line:nth-child(6){
+	white-space:nowrap;
+	animation-delay:6s;
+}
+.terminal_line:nth-child(7){
+	white-space:nowrap;
+	animation-delay:7s;
+}
+.terminal_line:nth-child(8){
+	white-space:nowrap;
+	animation-delay:8s;
+}
+.terminal_line:nth-child(9){
+	white-space:nowrap;
+	animation-delay:9s;
+}
+.terminal_line:nth-child(10){
+	white-space:nowrap;
+	animation-delay:10s;
+}
+.terminal_line:nth-child(11){
+	white-space:nowrap;
+	animation-delay:11s;
+}
+.terminal_line:nth-child(12){
+	white-space:nowrap;
+	animation-delay:12s;
+}
+.terminal_line:nth-child(13){
+	white-space:nowrap;
+	animation-delay:13s;
+}
+.terminal_line:nth-child(14){
+	white-space:nowrap;
+	animation-delay:14s;
+}
+.typing{
+	animation:blink 1s infinite;
+}
+@keyframes blink{
+	from{opacity:0}
+}
+@keyframes type{ 
+	from{width:0%}
+  	to { width: 100%; } 
+}
+form{
+	border:none;
+}
+
+.search_input{
+	border:none;
+	background:transparent;
+	caret-color:white;
+	font-family: 'VT323', 'Monaco', monospace;
+	font-size:20px;
+}
+input:focus{
+	outline:none;
+	color:white;
+}
+input:before { content: 'input: '; }
+input::-webkit-input-placeholder {
+	color: #4a319e !important;
+	font-family: 'VT323', 'Monaco', monospace;
+	font-size:20px;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+	color: #4a319e !important;
+	font-family: 'VT323', 'Monaco', monospace;
+	font-size:20px;  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+	color: #4a319e !important;
+	font-family: 'VT323', 'Monaco', monospace;
+	font-size:20px;  
+}
+ 
+input:-ms-input-placeholder {  
+	color: #4a319e !important;
+	font-family: 'VT323', 'Monaco', monospace;
+	font-size:20px;  
+}

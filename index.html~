@@ -1,0 +1,40 @@
+<html>
+<head>
+	<title>Giri</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<div id="landing">
+				<div class="container">
+					<div class="row">
+						<div class="col m12">
+							<p class="terminal_line">Welcome <span class="green-text"><198.0.0.27></span></p>						
+							<p class="terminal_line">I am <span class="green-text">Giritharan,</span> Developer and Graphic Designer</p>						
+							<p class="terminal_line">Panel Interface Completed</p>						
+							<p class="terminal_line">Fetching Navgation portals...</p>												
+							<p class="terminal_line"><a href="#"><span class="green-text">#aboutme</span></a></p>												
+							<p class="terminal_line"><a href="#"><span class="green-text">#skills</span></a></p>												
+							<p class="terminal_line"><a href="#"><span class="green-text">#portfolio</span></a></p>												
+							<p class="terminal_line"><a href="#"><span class="green-text">#contact</span></a></p>												
+							<p class="terminal_line">done...</p>												
+							<p class="terminal_line">Fetching <span class="green-text">help.txt </span>...</p>												
+							<p class="terminal_line"><span class="green-text">user@mycomputer: </span> <span class="command">cat help.txt</span></p>
+							<p class="terminal_line">In order to navigate click on the portal name</p> 
+							<p class="terminal_line">or type the portal name </p>					
+							<p class="terminal_line" id="terminal" class="search">
+								<form class="search_form" action="" method="post">
+									<label for="male"><span class="green-text">user@mycomputer: </span></label>
+									<input class="search_input" id="search_input" name="search" placeholder="Enter Command" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" ></input>
+									<input type="submit" style="display:none"/>
+								</form>							
+							</p>							
+						</div>					
+					</div>
+				</div>					
+			</div>
+   <script src="index.js"></script>
+</body>
+</html>
