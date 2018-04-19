@@ -1,13 +1,148 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
 
 body {
-  font-family: Open Sans;
-  font-weight: 300;
-  background:#449787;
-  color:white;
+  	font-family: small-caption;
+  //font-family: Open Sans;
+  //font-weight: 300;
+  //background:#449787;
+  //color:white;
+  animation:bg 1s 1.5s forwards, 
+  				fweight 1s 2.5s forwards, 
+  				fontfamily 1s 3.5s forwards,
+  				fontcolor 1s 4.5s forwards;
 }
+@keyframes bg{
+	to{background:#449787;}
+}
+@keyframes fweight{
+	to{font-weight: 300;}
+}
+@keyframes fontfamily{
+	to{font-family: Open Sans;}
+}
+@keyframes fontcolor{
+	to{color:white;}
+}
+
 .content{
-	text-align:justify;
-	line-height:1.5em;
-	font-size:2.6em;
+	//text-align:justify;
+	//line-height:1.5em;
+	//font-size:1.5em;
+	font-size:0.8em;
+	animation:textalign 1s 7.5s forwards,
+				lineheight 1s 9.5s forwards,
+				fontsize 1s 8.5s forwards;
+}
+@keyframes textalign{
+	to{text-align:justify;}
+}
+@keyframes lineheight{
+	to{line-height:1.5em;}
+}
+@keyframes fontsize{
+	to{font-size:1.5em;}
+}
+.csscode{
+	background:#fff;
+	margin-top:3%;
+	padding-left:0;
+	overflow-y:scroll;
+	height:70%;
+	border-radius:20px 0px 0px 20px;
+	
+}
+.csscode::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.csscode::-webkit-scrollbar
+{
+	width: 5px;
+	height:10px;
+	background-color: #F5F5F5;
+}
+
+.csscode::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: grey;
+}
+
+.csscode h5{
+	font-size:12px;
+	background:white;
+	line-height:1em;
+	font-family: "Helvetica Neue", sans-serif;
+}
+.code{
+	//width:0%;
+	color:#555;
+	font-family: monospace;
+  	counter-reset: lineNum;
+  	list-style: none;
+  	color: #555;
+  	overflow:hidden;
+  	white-space:nowrap;
+  //	animation:type 1s steps(60,end) forwards;
+}
+
+
+.comment { color: #06f; }
+  
+.line {
+	width:0%;
+	overflow:hidden;
+	display: block;
+	counter-increment: lineNum;
+	animation:type 1s steps(60,end) forwards;
+}
+.line:nth-child(2){
+	animation-delay:1s;
+}
+.line:nth-child(3){
+	animation-delay:2s;
+}
+.line:nth-child(4){
+	animation-delay:3s;
+}
+.line:nth-child(5){
+	animation-delay:4s;
+}
+.line:nth-child(6){
+	animation-delay:5s;
+}
+.line:nth-child(7){
+	animation-delay:6s;
+}
+.line:nth-child(8){
+	animation-delay:7s;
+}
+.line:nth-child(9){
+	animation-delay:8s;
+}
+.line:nth-child(10){
+	animation-delay:9s;
+}
+.line:nth-child(11){
+	animation-delay:10s;
+}
+.line:before {
+	content:'';
+	display: inline-block;
+	content: counter(lineNum, decimal-leading-zero);
+	padding: .5em 1.5em;
+	//margin-right: 1em;
+	font-weight: 700;
+	background-color: #f9f9f9;
+	color: #ccc;
+}
+.class{
+	color:#cc2844;
+}
+@keyframes type{
+	to{width:100%;}
 }
