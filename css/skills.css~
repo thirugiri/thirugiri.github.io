@@ -1,3 +1,7 @@
+body{
+	background:#383838;
+	color:white;
+}
 .progressbar{
 	width:0%;
 	background:#ddd;
@@ -54,12 +58,12 @@
 	width:0%;
 	animation: progressphp 1s .5s forwards;
 }
-.express{
+.nodejs{
 	height:3.5vmin;
 	border-radius:0px 10px 10px 0px;
-	background:yellow;
+	background:rgb(136, 188, 91);
 	width:0%;
-	animation: progressexpress 1s .5s forwards;
+	animation: progressnode 1s .5s forwards;
 }
 .mongodb{
 	height:3.5vmin;
@@ -90,7 +94,7 @@
 	to{width:70%}
 }
 
-@keyframes progressexpress{
+@keyframes progressnode{
 	to{width:80%}
 }
 

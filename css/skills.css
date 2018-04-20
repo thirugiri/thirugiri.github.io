@@ -1,6 +1,10 @@
+body{
+	background:#383838;
+	color:white;
+}
 .progressbar{
 	width:0%;
-	background:#ddd;
+	background:#ececec;
 	height:3.5vmin;
 	border-radius:0px 10px 10px 0px;
 	animation: progressbar 1s forwards;
