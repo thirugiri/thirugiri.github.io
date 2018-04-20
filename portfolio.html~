@@ -1,0 +1,126 @@
+<html>
+<head>
+	<title>Giri</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/portfolio.css"/> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- semantic modal
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/modal.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/modal.js"></script>
+    <!-- Compiled and minified JavaScript -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="index.js"></script>
+</head>
+<body>
+	<div class="fixed-action-btn">
+  		<a href="index.html" class="btn-floating btn-large white" data-toggle="tooltip" data-placement="top" title="Back To Terminal">
+    		<i class="large material-icons blue-text">code</i>
+  		</a>
+  	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col m12 center-align">
+				<h3>Portfolio</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col m4 s12">
+				<div class="card small">
+			    <div class="card-image waves-effect waves-block waves-light">
+			      <img class="activator" src="logo/bootstrap.svg">
+			    </div>
+			    <div class="card-content">
+			      <span class="card-title activator grey-text text-darken-4">LeoClub of CEG<i class="material-icons right">more_vert</i></span>
+			      <p><a href="https://github.com/thirugiri/Leoclub" target="_blank">Github repo</a></p>
+			    </div>
+			    <div class="card-reveal">
+			      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+			      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+			    </div>
+			  </div>	 
+			</div>
+			<div class="col m4 s12">
+				<div class="card small">
+			    <div class="card-image waves-effect waves-block waves-light">
+			      <img class="activator" src="logo/nodejs.svg">
+			    </div>
+			    <div class="card-content">
+			      <span class="card-title activator grey-text text-darken-4">Blog<i class="material-icons right">more_vert</i></span>
+			      <p><a href="https://github.com/thirugiri/react" target="_blank">Github Repo</a></p>
+			    </div>
+			    <div class="card-reveal">
+			      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+			      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+			    </div>
+			  </div>	 
+			</div>
+			<div class="col m4 s12">
+				<div class="card small">
+			    <div class="card-image waves-effect waves-block waves-light">
+			      <img class="activator" src="logo/bootstrap.svg">
+			    </div>
+			    <div class="card-content">
+			      <span class="card-title activator grey-text text-darken-4">Sadhana School<i class="material-icons right">more_vert</i></span>
+			      <p><a href="https://github.com/thirugiri/omsadhana" target="_blank">Github Repo</a></p>
+			    </div>
+			    <div class="card-reveal">
+			      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+			      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+			    </div>
+			  </div>	 
+			</div>
+		</div>
+		<div class="row">
+			<div class="col m4 s12">
+				<div class="card small">
+			    <div class="card-image waves-effect waves-block waves-light">
+			      <img class="activator" src="logo/php.svg">
+			    </div>
+			    <div class="card-content">
+			      <span class="card-title activator grey-text text-darken-4">Xpend<i class="material-icons right">more_vert</i></span>
+			      <p><a href="https://github.com/thirugiri/xpend" target="_blank">Github repo</a></p>
+			    </div>
+			    <div class="card-reveal">
+			      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+			      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+			    </div>
+			  </div>	 
+			</div>
+			<div class="col m4 s12">
+				<div class="card small">
+			    <div class="card-image waves-effect waves-block waves-light">
+			      <img class="activator" src="logo/bootstrap.svg">
+			    </div>
+			    <div class="card-content">
+			      <span class="card-title activator grey-text text-darken-4">Abacus'16<i class="material-icons right">more_vert</i></span>
+			      <p><a href="https://github.com/thirugiri/abacus16" target="_blank">Github Repo</a></p>
+			    </div>
+			    <div class="card-reveal">
+			      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+			      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+			    </div>
+			  </div>	 
+			</div>
+			<div class="col m4 s12">
+				<div class="card small">
+			    <div class="card-image waves-effect waves-block waves-light">
+			      <img class="activator" src="logo/bootstrap.svg">
+			    </div>
+			    <div class="card-content">
+			      <span class="card-title activator grey-text text-darken-4">Abacus'17<i class="material-icons right">more_vert</i></span>
+			      <p><a href="https://github.com/thirugiri/abacus'17" target="_blank">Github Repo</a></p>
+			    </div>
+			    <div class="card-reveal">
+			      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+			      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+			    </div>
+			  </div>	 
+			</div>
+		</div>
+	</div>
+</body>
+</html>
