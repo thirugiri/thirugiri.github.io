@@ -1,0 +1,118 @@
+.progressbar{
+	width:0%;
+	background:#ddd;
+	height:3.5vmin;
+	border-radius:0px 10px 10px 0px;
+	animation: progressbar 1s forwards;
+}
+@keyframes progressbar{
+	to{width:100%;}
+}
+.skill{
+	text-align:right;
+	color:white;
+}
+.html{
+	height:3.5vmin;
+	border-radius:0px 10px 10px 0px;
+	background:#e54b21;
+	width:0%;
+	animation: progressskill 1s .5s forwards;
+}
+.css{
+	height:3.5vmin;
+	border-radius:0px 10px 10px 0px;
+	background:#1373b8;
+	width:0%;
+	animation: progressskill 1s .5s forwards;
+}
+.js{
+	height:3.5vmin;
+	border-radius:0px 10px 10px 0px;
+	background:rgb(231, 164, 42);
+	width:0%;
+	animation: progressjs 1s .5s forwards;
+}
+.react{
+	height:3.5vmin;
+	border-radius:0px 10px 10px 0px;
+	background:rgb(83, 193, 222);
+	width:0%;
+	animation: progressreact 1s .5s forwards;
+}
+.angular{
+	height:3.5vmin;
+	border-radius:0px 10px 10px 0px;
+	background:rgb(227, 67, 54);
+	width:0%;
+	animation: progressangular 1s .5s forwards;
+}
+.php{
+	height:3.5vmin;
+	border-radius:0px 10px 10px 0px;
+	background:rgb(119, 122, 179);
+	width:0%;
+	animation: progressphp 1s .5s forwards;
+}
+.nodejs{
+	height:3.5vmin;
+	border-radius:0px 10px 10px 0px;
+	background:rgb(136, 188, 91);
+	width:0%;
+	animation: progressnode 1s .5s forwards;
+}
+.mongodb{
+	height:3.5vmin;
+	border-radius:0px 10px 10px 0px;
+	background:rgb(79, 157, 74);
+	width:0%;
+	animation: progressmongo 1s .5s forwards;
+}
+.mysql{
+	height:3.5vmin;
+	border-radius:0px 10px 10px 0px;
+	background:rgb(26, 97, 139);
+	width:0%;
+	animation: progresssql 1s .5s forwards;
+}
+.ps{
+	height:3.5vmin;
+	border-radius:0px 10px 10px 0px;
+	background:rgb(76, 197, 240);
+	width:0%;
+	animation: progressps 1s .5s forwards;
+}
+@keyframes progressangular{
+	to{width:60%}
+}
+
+@keyframes progressmongo{
+	to{width:70%}
+}
+
+@keyframes progressnode{
+	to{width:80%}
+}
+
+@keyframes progressphp{
+	to{width:80%}
+}
+
+@keyframes progresssql{
+	to{width:80%}
+}
+
+@keyframes progressps{
+	to{width:90%}
+}
+
+@keyframes progressreact{
+	to{width:80%}
+}
+
+@keyframes progressjs{
+	to{width:60%}
+}
+@keyframes progressskill{
+	to{width:90%}
+}

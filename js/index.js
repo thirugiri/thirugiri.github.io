@@ -9,6 +9,7 @@ $(document).ready(function(){
 				break;
 			case "skills":
 				$("#terminal").append("<div class='new'><p class='terminal_line'><span class='green-text'>user@mycomputer: </span><span class='command'>"+$("input:text").val()+"</span></p><p class='terminal_line'>Executing command..</p><p class='terminal_line'>Opening Skills page :)</p></div>");
+				window.open('skills.html','_blank');
 				break;
 			case "portfolio":
 				$("#terminal").append("<div class='new'><p><span class='green-text'>user@mycomputer: </span><span class='command'>"+$("input:text").val()+"</span></p><p class='terminal_line'>Executing command..</p><p class='terminal_line'>Opening Portfolio page :)</p></div>");
