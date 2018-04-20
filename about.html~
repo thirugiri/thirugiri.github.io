@@ -3,20 +3,27 @@
 	<title>Giri</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/about.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	 <!-- Compiled and minified CSS -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified JavaScript -->
    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
 	<div class="fixed-action-btn">
-  		<a href="index.html" class="btn-floating btn-large white" data-toggle="tooltip" data-placement="top" title="Back To Terminal">
-    		<i class="large material-icons blue-text">code</i>
-  		</a>
-  	</div>
+	  <a class="btn-floating btn-large white">
+	    <i class="large material-icons blue-text">menu</i>
+	  </a>
+	  <ul>
+	    <li><a class="btn-floating black" href="index.html" data-toggle="tooltip" data-placement="top" title="Back To Terminal"><i class="material-icons green-text">code</i></a></li>
+	    <li><a class="btn-floating teal lighten-2" href="about.html" data-toggle="tooltip" data-placement="top" title="About"><i class="material-icons">book</i></a></li>
+	    <li><a class="btn-floating grey" href="skills.html" data-toggle="tooltip" data-placement="top" title="Skills"><i class="material-icons">pie_chart</i></a></li>
+	    <li><a class="btn-floating green" href="portfolio.html" data-toggle="tooltip" data-placement="top" title="Portfolio"><i class="material-icons">desktop_mac</i></a></li>
+	    <li><a class="btn-floating blue" href="contact.html" data-toggle="tooltip" data-placement="top" title="contact"><i class="material-icons">phone</i></a></li>
+	  </ul>
+	</div>
 	<div class="container">
 		<div class="row">
 			<div class="col m5">
@@ -43,8 +50,8 @@
 						<p class="line class">}</p>
 						<p class="line class">.about-content{</p>
 						<p class="line"><span class="comment">text-align:</span> justify;</p>
-						<p class="line"><span class="comment">line-height:</span> 1.5em;</p>
 						<p class="line"><span class="comment">font-size:</span> 1.5em;</p>
+						<p class="line"><span class="comment">line-height:</span> 1.5em;</p>
 						<p class="line class">}</p>		
 					</div>
 				</h5>			
