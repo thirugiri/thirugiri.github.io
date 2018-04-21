@@ -12,11 +12,44 @@ h2{
 }
 @media only screen and (min-width:600px){
 	.move{
-		//animation:float 2s infinite;
+		animation:float 2s infinite;
+		position:absolute;
+	}
+	.move:hover{
+		transform:rotate(360deg);	
+	}
+	.moveup{
+		animation:floatup 2s infinite;
+		position:absolute;
+	}
+	.moveup:hover{
+		transform:rotate(-360deg);	
+	}
+	.marginup{
+		margin-top:10%;	
 	}
 }
 @keyframes float{
 	0%{margin-top:0%;}
 	50%{margin-top:2%;}
 	to{margin-top:0%;}
+}
+@keyframes floatup{
+	0%{margin-top:0%;}
+	50%{margin-top:5%;}
+	to{margin-top:0%;}
+}
+.mail{
+	cursor:default;
+}
+.mail:hover{
+	animation:shake .5s steps(60,end);
+	text-decoration:underline;
+}
+@keyframes shake{
+	0%{margin-left:0%;}
+	25%{margin-left:5%;}
+	50%{margin-left:0%;}
+	75%{margin-left:5%;}
+	100%{margin-left:0%;}
 }

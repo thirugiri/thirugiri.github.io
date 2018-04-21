@@ -14,6 +14,11 @@
     <!-- Compiled and minified JavaScript -->
    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 	<script src="index.js"></script>
+	<script>
+	  $(document).ready(function(){
+    		$('.fixed-action-btn').floatingActionButton();
+  		});
+  </script>
 </head>
 <body>
 	<div class="fixed-action-btn">
@@ -33,28 +38,34 @@
 	  		<div classs="col m12"><h2 class="center-align">Contact</h2></div>
 	  	</div>
 	  	<div class="row">
-	  		<div class="col m3 s12 move">
-		  		<div class="row center-align"><i class="medium material-icons circle">mail</i></div>
-		  		<div class="row center-align"><h6>thirugiritharan@gmail.com</h5></div>
+	  		<div class="col m3 s12">
+	  			<div class="mail">
+			  		<div class="row center-align"><i class="medium material-icons circle">mail</i></div>
+			  		<div class="row center-align"><h6>thirugiritharan@gmail.com</h5></div>
+			  	</div>
 	  		</div>
 	  		<div class="col m1"></div>
-	  		<div class="col m3 s12 move">
-		  		<div class="row center-align"><i class="medium material-icons circle">phone</i></div>
-		  		<div class="row center-align"><h6>+91 80983 80066</h5></div>
+	  		<div class="col m3 s12">
+	  			<div class="mail">
+			  		<div class="row center-align"><i class="medium material-icons circle">phone</i></div>
+			  		<div class="row center-align"><h6>+91 80983 80066</h5></div>
+			  	</div>
 	  		</div>
 	  		<div class="col m1"></div>
-	  		<div class="col m3 s12 move">
-		  		<div class="row center-align"><i class="medium material-icons circle">location_on</i></div>
-		  		<div class="row center-align"><h6>Chennai, TamilNadu</h5></div>
+	  		<div class="col m3 s12">
+	  			<div class="mail">
+			  		<div class="row center-align"><i class="medium material-icons circle">location_on</i></div>
+			  		<div class="row center-align"><h6>Chennai, TamilNadu</h5></div>
+			  	</div>
 	  		</div>
 	  	</div>
 	  	<div class="row">
-	  		<div class="col m12 center-align" style="margin-top:10%;margin-left:-2%;">
-	  			 <a class="btn-floating btn-large waves-effect waves-light white"><i class="fa fa-facebook blue-text"></i></a>
-	  			 <a class="btn-floating btn-large waves-effect waves-light white"><i class="fa fa-twitter blue-text"></i></a>
-	  			 <a class="btn-floating btn-large waves-effect waves-light white"><i class="fa fa-instagram red-text"></i></a>
-	  			 <a class="btn-floating btn-large waves-effect waves-light white"><i class="fa fa-behance blue-text"></i></a>
-	  			 <a class="btn-floating btn-large waves-effect waves-light white"><i class="fa fa-codepen black-text"></i></a>
+	  		<div class="col m12 s12 center-align marginup" >
+	  			 <a href="https://codepen.io/giri95/" target="_blank" class="btn-floating btn-large waves-effect waves-light white move"><i class="fa fa-facebook blue-text"></i></a>
+	  			 <a href="https://codepen.io/giri95/" target="_blank" class="btn-floating btn-large waves-effect waves-light white moveup"><i class="fa fa-twitter blue-text"></i></a>
+	  			 <a href="https://www.instagram.com/giri_tharan95/" target="_blank" class="btn-floating btn-large waves-effect waves-light white move"><i class="fa fa-instagram red-text"></i></a>
+	  			 <a href="https://www.behance.net/thirugiritf884" target="_blank" class="btn-floating btn-large waves-effect waves-light white moveup"><i class="fa fa-behance blue-text"></i></a>
+	  			 <a href="https://codepen.io/giri95/" target="_blank" class="btn-floating btn-large waves-effect waves-light white move"><i class="fa fa-codepen black-text"></i></a>
 	  		</div>
 	  	</div>
   	</div>
