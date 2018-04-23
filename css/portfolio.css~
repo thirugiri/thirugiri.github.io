@@ -2,7 +2,7 @@
 body{
 	width:100%;
 	font-family:Comforta;
-	background:#0b1821;
+	background:#05386B;
 	color:white;
 }
 .card{
