@@ -22,8 +22,8 @@
 </head>
 <body>
 	<div class="fixed-action-btn">
-	  <a class="btn-floating btn-large blue lighten-4">
-	    <i class="large material-icons blue-text">menu</i>
+	  <a class="btn-floating btn-large blue ">
+	    <i class="large material-icons white-text">menu</i>
 	  </a>
 	  <ul>
 	    <li><a class="btn-floating black" href="index.html" data-toggle="tooltip" data-placement="top" title="Back To Terminal"><i class="material-icons green-text">code</i></a></li>
@@ -41,96 +41,78 @@
 		</div>
 		<div class="row">
 			<div class="col m4 s12">
-				<div class="card small">
-			    <div class="card-image waves-effect waves-block waves-light">
-			      <img class="activator" src="logo/bootstrap.svg">
-			    </div>
-			    <div class="card-content">
-			      <span class="card-title activator grey-text text-darken-4">LeoClub of CEG<i class="material-icons right">more_vert</i></span>
-			      <p><a href="https://github.com/thirugiri/Leoclub" target="_blank">Github repo</a></p>
-			    </div>
-			    <div class="card-reveal">
-			      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-			      <p>Here is some more information about this product that is only revealed once clicked on.</p>
-			    </div>
-			  </div>	 
+				<div class="card hoverable" style="background:#0000006b">
+		        <div class="card-content" style="color:#dfe6ea">
+		          <span class="card-title center-align">Card Title</span>
+		          <p class="center-align">I am a very simple card. I am good at containing small bits of information.
+		          I am convenient because I require little markup to use effectively.</p>
+		        </div>
+		        <div class="card-action center-align">
+		          <a href="#" style="color:grey;">This is a link</a>
+		        </div>
+		      </div>
 			</div>
 			<div class="col m4 s12">
-				<div class="card small">
-			    <div class="card-image waves-effect waves-block waves-light">
-			      <img class="activator" src="logo/nodejs.svg">
-			    </div>
-			    <div class="card-content">
-			      <span class="card-title activator grey-text text-darken-4">Blog<i class="material-icons right">more_vert</i></span>
-			      <p><a href="https://github.com/thirugiri/react" target="_blank">Github Repo</a></p>
-			    </div>
-			    <div class="card-reveal">
-			      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-			      <p>Here is some more information about this product that is only revealed once clicked on.</p>
-			    </div>
-			  </div>	 
+				<div class="card hoverable" style="background:#0000006b">
+		        <div class="card-content" style="color:#dfe6ea">
+		          <span class="card-title center-align">Card Title</span>
+		          <p class="center-align">I am a very simple card. I am good at containing small bits of information.
+		          I am convenient because I require little markup to use effectively.</p>
+		        </div>
+		        <div class="card-action center-align">
+		          <a href="#" style="color:grey;">This is a link</a>
+		        </div>
+		      </div>
 			</div>
 			<div class="col m4 s12">
-				<div class="card small">
-			    <div class="card-image waves-effect waves-block waves-light">
-			      <img class="activator" src="logo/bootstrap.svg">
-			    </div>
-			    <div class="card-content">
-			      <span class="card-title activator grey-text text-darken-4">Sadhana School<i class="material-icons right">more_vert</i></span>
-			      <p><a href="https://github.com/thirugiri/omsadhana" target="_blank">Github Repo</a></p>
-			    </div>
-			    <div class="card-reveal">
-			      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-			      <p>Here is some more information about this product that is only revealed once clicked on.</p>
-			    </div>
-			  </div>	 
+				<div class="card hoverable" style="background:#0000006b">
+		        <div class="card-content" style="color:#dfe6ea">
+		          <span class="card-title center-align">Card Title</span>
+		          <p class="center-align">I am a very simple card. I am good at containing small bits of information.
+		          I am convenient because I require little markup to use effectively.</p>
+		        </div>
+		        <div class="card-action center-align">
+		          <a href="#" style="color:grey;">This is a link</a>
+		        </div>
+		      </div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col m4 s12">
-				<div class="card small">
-			    <div class="card-image waves-effect waves-block waves-light">
-			      <img class="activator" src="logo/php.svg">
-			    </div>
-			    <div class="card-content">
-			      <span class="card-title activator grey-text text-darken-4">Xpend<i class="material-icons right">more_vert</i></span>
-			      <p><a href="https://github.com/thirugiri/xpend" target="_blank">Github repo</a></p>
-			    </div>
-			    <div class="card-reveal">
-			      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-			      <p>Here is some more information about this product that is only revealed once clicked on.</p>
-			    </div>
-			  </div>	 
+				<div class="card hoverable" style="background:#0000006b">
+		        <div class="card-content" style="color:#dfe6ea">
+		          <span class="card-title center-align">Card Title</span>
+		          <p class="center-align">I am a very simple card. I am good at containing small bits of information.
+		          I am convenient because I require little markup to use effectively.</p>
+		        </div>
+		        <div class="card-action center-align">
+		          <a href="#" style="color:grey;">This is a link</a>
+		        </div>
+		      </div>
 			</div>
 			<div class="col m4 s12">
-				<div class="card small">
-			    <div class="card-image waves-effect waves-block waves-light">
-			      <img class="activator" src="logo/bootstrap.svg">
-			    </div>
-			    <div class="card-content">
-			      <span class="card-title activator grey-text text-darken-4">Abacus'16<i class="material-icons right">more_vert</i></span>
-			      <p><a href="https://github.com/thirugiri/abacus16" target="_blank">Github Repo</a></p>
-			    </div>
-			    <div class="card-reveal">
-			      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-			      <p>Here is some more information about this product that is only revealed once clicked on.</p>
-			    </div>
-			  </div>	 
+				<div class="card hoverable" style="background:#0000006b">
+		        <div class="card-content" style="color:#dfe6ea">
+		          <span class="card-title center-align">Card Title</span>
+		          <p class="center-align">I am a very simple card. I am good at containing small bits of information.
+		          I am convenient because I require little markup to use effectively.</p>
+		        </div>
+		        <div class="card-action center-align">
+		          <a href="#" style="color:grey;">This is a link</a>
+		        </div>
+		      </div>
 			</div>
 			<div class="col m4 s12">
-				<div class="card small">
-			    <div class="card-image waves-effect waves-block waves-light">
-			      <img class="activator" src="logo/bootstrap.svg">
-			    </div>
-			    <div class="card-content">
-			      <span class="card-title activator grey-text text-darken-4">Abacus'17<i class="material-icons right">more_vert</i></span>
-			      <p><a href="https://github.com/thirugiri/abacus17" target="_blank">Github Repo</a></p>
-			    </div>
-			    <div class="card-reveal">
-			      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-			      <p>Here is some more information about this product that is only revealed once clicked on.</p>
-			    </div>
-			  </div>	 
+				<div class="card hoverable" style="background:#0000006b">
+		        <div class="card-content" style="color:#dfe6ea">
+		          <span class="card-title center-align">Card Title</span>
+		          <p class="center-align">I am a very simple card. I am good at containing small bits of information.
+		          I am convenient because I require little markup to use effectively.</p>
+		        </div>
+		        <div class="card-action center-align">
+		          <a href="#" style="color:grey;">This is a link</a>
+		        </div>
+		      </div>
 			</div>
 		</div>
 	</div>

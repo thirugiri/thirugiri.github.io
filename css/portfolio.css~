@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa:400,700,300|Quattrocento");
 body{
+	width:100%;
 	font-family:Comforta;
-	background:#56b89e;
+	background:#0b1821;
+	color:white;
 }
 .card{
-	background:#0e374a;
+	background-color:#FFF59D;
 }
